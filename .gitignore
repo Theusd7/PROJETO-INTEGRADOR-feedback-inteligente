@@ -1,0 +1,25 @@
+# Node modules
+node_modules/ 
+ 
+# Logs 
+logs/ 
+*.log 
+npm-debug.log* 
+yarn-debug.log* 
+yarn-error.log* 
+ 
+# Diret¢rios de build do React 
+src/frontend/build/ 
+dist/ 
+build/ 
+ 
+# Arquivos de ambiente 
+.env 
+ 
+# Banco SQLite 
+*.sqlite 
+*.sqlite3 
+ 
+# Mac / VSCode 
+.DS_Store 
+.vscode/ 
