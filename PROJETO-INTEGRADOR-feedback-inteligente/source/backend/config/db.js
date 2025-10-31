@@ -13,7 +13,7 @@ const sequelize = new Sequelize(
 );
 
 sequelize.authenticate()
-  .then(() => console.log('✅ Conectado ao MariaDB com sucesso!'))
-  .catch(err => console.error('❌ Erro ao conectar ao banco:', err));
+  .then(() => console.log('deu certo'))
+  .catch(err => console.error('erro', err));
 
 module.exports = sequelize;
